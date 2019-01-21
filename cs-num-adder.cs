@@ -9,7 +9,8 @@ namespace NumAdder
             var sum = 0;
 
             while (true)
-            { Console.WriteLine("Please enter a number to add to the sum, or enter 'calc' to get result.");
+            {
+                Console.WriteLine("Please enter a number to add to the sum, or enter 'calc' to get result.");
                 var input = Console.ReadLine();
 
                 if (input.ToLower() == "calc")
